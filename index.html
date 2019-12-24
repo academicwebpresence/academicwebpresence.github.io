@@ -64,6 +64,17 @@ body {
   background-color: #FCFCFC;
   font-family: verdana;
 }
+pre, code {
+  font-family: monospace, monospace;
+}
+pre {
+  overflow: auto;
+}
+pre > code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+}
 </style>
 </head>
 
@@ -102,13 +113,36 @@ If you have some suggestions too, you may send an email to <a href="mailto:acade
 <button class="collapsible">Personal Webpage </button>
 <div class="content">
   <p>
-  <a href="https://pages.github.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> GitHub Pages</a> is a great way to build your own permanent, professional website.
+  <a href="https://pages.github.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> GitHub Pages</a> is a great way to build your own permanent, professional website in <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener" aria-describedby="new-window-0"> HTML</a>. It's free and shows up easily in search results, and the URL will look like https://yourname.github.io. 
+  To code the website, it may help to use free, open-source, awesome modern templates like the ones at
+  <a href="https://startbootstrap.com/themes/" target="_blank" rel="noopener" aria-describedby="new-window-0"> BootStrap</a>.
+  Alternatively, you can create a <a href="https://wordpress.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> WordPress</a> site and pay a small amount to have your own custom URL (e.g. https://www.yourname.com).  
   </p>
 </div>
 <button class="collapsible">Improving your site's ranking </button>
 <div class="content">
   <p>
-  
+  [1] add descriptive links to other sites (department, collaborators, advisors, sources of funding, useful links, etc.).
+  </p>
+  <p>
+  [2] have other sites/social media accounts link to your site.
+  </p>
+  <p>
+  [3] keep your website up-to-date.
+  </p>
+  <p>
+  [4] add metadata into your HTML code. e.g. <pre><code>  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+  &lt;meta name="description" content="Your description"&gt;
+  &lt;meta name="keywords" content="Your Name, Research Area, Department, etc"&gt;
+  &lt;meta name="author" content="Your Name"&gt;
+  </code></pre>
+  </p>
+</div>
+<button class="collapsible">Google Analytics </button>
+<div class="content">
+  <p>
+  <a href="https://analytics.google.com/analytics/web/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Google Analytics</a> is useful to track how much traffic your personal webpage is getting, and from where. Create an account and add the snippet of code they provide into your HTML header to get it running.
   </p>
 </div>
 
@@ -117,19 +151,19 @@ If you have some suggestions too, you may send an email to <a href="mailto:acade
 <button class="collapsible">Facebook </button>
 <div class="content">
   <p>
-	<a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Facebook</a>
+	<a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Facebook</a>. Improve your privacy settings to control what potential employers may see. 
   </p>
 </div>
 <button class="collapsible">Twitter </button>
 <div class="content">
   <p>
-	<a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Twitter</a>
+	<a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Twitter</a> is used commonly in a number of fields to promote papers and discussion. Tweet with the goal of being constructive in mind.
   </p>
 </div>
 <button class="collapsible">Instagram </button>
 <div class="content">
   <p>
-	<a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Instagram</a>
+	<a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Instagram</a> is a great way to show off your artistic side and balance it with your academic one.
   </p>
 </div>
 
@@ -137,55 +171,58 @@ If you have some suggestions too, you may send an email to <a href="mailto:acade
 <button class="collapsible">Google Scholar  </button>
 <div class="content">
   <p>
-	<a href="https://scholar.google.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Google Scholar</a>
+	<a href="https://scholar.google.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Google Scholar</a> is a must. Make sure all your papers are found. Add your photo, subfields, and links to your homepage.
   </p>
 </div>
 <button class="collapsible">ORCID iD</button>
 <div class="content">
   <p>
-	<a href="https://orcid.org/" target="_blank" rel="noopener" aria-describedby="new-window-0"> ORCID iD</a>
+	<a href="https://orcid.org/" target="_blank" rel="noopener" aria-describedby="new-window-0"> ORCID iD</a>  is a persistent digital identifier that identifies you, which an increasing number of publishers/journals use. Set up and share your iD (e.g. on your homepage).
   </p>
 </div>
 <button class="collapsible">LinkedIn </button>
 <div class="content">
   <p>
-	<a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> LinkedIn</a>
+	<a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> LinkedIn</a> is great for professional connections and looking for jobs. 
   </p>
 </div>
 <button class="collapsible">GitHub </button>
 <div class="content">
   <p>
-	<a href="https://www.github.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> GitHub</a>
+	<a href="https://www.github.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> GitHub</a> is a great way to share your open-source code, and can serve as a coding portfolio.
   </p>
 </div>
 <button class="collapsible">Research Gate </button>
 <div class="content">
   <p>
-	<a href="https://www.researchgate.net/" target="_blank" rel="noopener" aria-describedby="new-window-0"> ResearchGate</a>
+	<a href="https://www.researchgate.net/" target="_blank" rel="noopener" aria-describedby="new-window-0"> ResearchGate</a> is a  professional network that can increase the visibility of your research and papers.
   </p>
 </div>
 <button class="collapsible">Academia.edu </button>
 <div class="content">
   <p>
-	<a href="https://www.academia.edu/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Academia</a>
+	<a href="https://www.academia.edu/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Academia</a> also allows you to set up an account, share your work, and connect with other researchers.
   </p>
 </div>
 <button class="collapsible">Publons </button>
 <div class="content">
   <p>
-	<a href="http://publons.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Publons</a>
+	<a href="http://publons.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Publons</a> tracks your publications, citation metrics, peer reviews.
   </p>
 </div>
 <button class="collapsible">Mendeley </button>
 <div class="content">
   <p>
-	<a href="https://www.mendeley.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Mendeley</a>
+	<a href="https://www.mendeley.com/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Mendeley</a> is a free reference manager and an academic social network.
   </p>
 </div>
 <button class="collapsible">Academic Tree </button>
 <div class="content">
   <p>
-	<a href="https://academictree.org/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Academic Tree</a>
+	<a href="https://academictree.org/" target="_blank" rel="noopener" aria-describedby="new-window-0"> Academic Tree</a> lets you see your academic family (advisors, students).
+	For an example, see:
+  <a href="https://academictree.org/physics/tree.php?pid=81327" target="_blank" rel="noopener" aria-describedby="new-window-0"> Steven Weinberg</a>.
+	
   </p>
 </div>
 <button class="collapsible">Gravatar </button>
